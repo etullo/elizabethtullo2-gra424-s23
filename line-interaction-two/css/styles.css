@@ -17,13 +17,19 @@
 }
 
 .original-form-two {
-    display: flex;
     background-color: #fff;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
 }
 
+.addition-one-container {
+    display: flex;
+    background-color: #fff;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
 .addition-one {
     display: flex;
     background-color: #000;
@@ -48,6 +54,23 @@
     height: 42.857143vh;
     margin: auto;
     margin-right: 0;
+}
+
+
+.original-form-one {
+    display: flex;
+    background-color: #fff;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.subtraction-one {
+    display: flex;
+    background-color: #fff;
+    width: 1.86335404vw;
+    height: 42.857143vh;
+    margin: auto;
 }
 
 
