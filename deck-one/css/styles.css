@@ -1,0 +1,34 @@
+.webpage-format {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 100vw;
+}
+
+.original-format {
+    display: flex;
+    background-color: #fff;
+    width: 71.428571vw;
+    height: 71.428571vw;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+.original-form-two {
+    display: flex;
+    background-color: #000;
+    width: 42.857143vw;
+    height: 42.857143vw;
+    margin: auto;
+}
+
+.original-form-one {
+    display: flex;
+    background-color: #fff;
+    width: 14.285714vw;
+    height: 14.285714vw;
+    margin: auto;
+}
+
