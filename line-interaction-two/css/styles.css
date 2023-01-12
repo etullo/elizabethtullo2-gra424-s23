@@ -30,6 +30,7 @@
     height: 42.857143vh;
     margin: auto;
 }
+
 .addition-one {
     display: flex;
     background-color: #000;
@@ -59,18 +60,43 @@
 
 .original-form-one {
     display: flex;
-    background-color: #fff;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
+    overflow: hidden;
+    position: relative;
+    top:-28.17384281vh;
 }
 
 .subtraction-one {
     display: flex;
-    background-color: #fff;
-    width: 1.86335404vw;
-    height: 42.857143vh;
+    transform: rotate(15deg);
+    background-color:#fff;
+    width: 1.56335404vw;
+    height: 17vh;
     margin: auto;
+    margin-top: -1vh;
 }
 
+.subtraction-one-left {
+    display: flex;
+    transform: rotate(15deg);
+    background-color:#fff;
+    width: 1.56335404vw;
+    height: 17vh;
+    margin: auto;
+    margin-left: .5vh;
+    margin-top: -1vh;
+}
+
+.subtraction-one-right {
+    display: flex;
+    transform: rotate(15deg);
+    background-color:#fff;
+    width: 1.56335404vw;
+    height: 17vh;
+    margin: auto;
+    margin-right: .6vh;
+    margin-top: -1vh;
+}
 
