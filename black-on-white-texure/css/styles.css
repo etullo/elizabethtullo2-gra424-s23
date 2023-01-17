@@ -1,0 +1,36 @@
+.webpage-format {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.original-format {
+    display: flex;
+    background-color: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+.original-form-two {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    background-image: url(../img/whiteouterleaf.JPG);
+    background-size: cover;
+    margin: auto;
+}
+
+.original-form-one {
+    display: flex;
+    background-image: url(../img/blackinnerleaf.JPG);
+    background-size: cover;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+

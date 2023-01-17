@@ -1,0 +1,106 @@
+.webpage-format {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.original-format {
+    display: flex;
+    background-color: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+.original-form-two {
+    background-color: #fff;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.cm-row-one {
+    display: flex;
+    width: 42.857143vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-square-one {
+    background-color:#ddd8ce;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-square-two {
+    background-color:#fed989;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+.cm-square-three {
+    background-color:#f37243;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-row-two {
+    display: flex;
+    width: 42.857143vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-square-four {
+    background-color:#ece212;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-square-five {
+    background-color:#b9d532;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+.cm-square-six {
+    background-color:#aa753f;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-row-three {
+    display: flex;
+    width: 42.857143vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-square-seven {
+    background-color:#f04d23;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.cm-square-eight {
+    background-color:#5961a9;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+.cm-square-nine {
+    background-color:#443d38;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
