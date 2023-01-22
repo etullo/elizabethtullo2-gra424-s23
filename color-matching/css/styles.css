@@ -104,3 +104,17 @@
     margin: auto;
 }
 
+
+
+/* Hover States */
+
+.original-form-two:hover {
+    background-image: url(../img/IMG_0657.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.hover-container:hover {
+    display: none;
+}
