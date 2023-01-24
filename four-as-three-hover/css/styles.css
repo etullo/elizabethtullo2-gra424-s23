@@ -17,8 +17,14 @@
 }
 
 .original-form-two {
-    display: flex;
     background-color: #fff;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.color-before-flap {
+    display: flex;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
@@ -34,9 +40,10 @@
 
 .column-one-inside {
     background-color: #9e8769;
-    width: 7.142857vw;
+    width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
+    margin-right: 0;
 }
 
 .column-two {
@@ -49,7 +56,45 @@
 
 .column-two-inside {
     background-color: #bcaf79;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+    margin-left: 0;
+}
+
+.hover-container {
+    display: flex;
+    position: relative;
+    top: -42.857143vh;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.hover-flap {
+    display: flex;
+    position: relative;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+
+.column-one-flap {
     width: 7.142857vw;
     height: 14.285714vh;
     margin: auto;
+    background-color: #7c394f; 
+}
+
+.column-two-flap {
+    width: 7.142857vw;
+    height: 14.285714vh;
+    margin: auto;
+    background-color: #e3ea95; 
+}
+
+/* Hover States */
+
+.hover-container:hover {
+    display: none;
 }
