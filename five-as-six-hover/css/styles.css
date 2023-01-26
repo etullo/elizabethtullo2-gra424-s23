@@ -39,7 +39,7 @@
 }
 
 .column-one-inside {
-    background-color: #b3964e;
+    background-color: #a89154;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
@@ -55,7 +55,7 @@
 }
 
 .column-two-inside {
-    background-color: #b3964e;
+    background-color: #a89154;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
@@ -63,7 +63,7 @@
 }
 
 .hover-container {
-    display: none;
+    display: flex;
     position: relative;
     top: -42.857143vh;
     width: 42.857143vw;
@@ -83,14 +83,14 @@
     width: 7.142857vw;
     height: 14.285714vh;
     margin: auto;
-    background-color: #7c394f; 
+    background-color: #fffcc0; 
 }
 
 .column-two-flap {
     width: 7.142857vw;
     height: 14.285714vh;
     margin: auto;
-    background-color: #e3ea95; 
+    background-color: #3d0000; 
 }
 
 /* Hover States */

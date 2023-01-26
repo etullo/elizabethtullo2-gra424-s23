@@ -63,7 +63,7 @@
 }
 
 .hover-container {
-    display: none;
+    display: flex;
     position: relative;
     top: -42.857143vh;
     width: 42.857143vw;
@@ -81,16 +81,16 @@
 
 .column-one-flap {
     width: 7.142857vw;
-    height: 14.285714vh;
+    height: 42.857143vh;
     margin: auto;
-    background-color: #f49a22; 
+    background-color: #ffcae5; 
 }
 
 .column-two-flap {
     width: 7.142857vw;
-    height: 14.285714vh;
+    height: 42.857143vh;
     margin: auto;
-    background-color: #276035; 
+    background-color: #000033; 
 }
 
 /* Hover States */
