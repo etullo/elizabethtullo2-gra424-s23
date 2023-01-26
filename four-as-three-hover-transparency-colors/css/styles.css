@@ -32,14 +32,14 @@
 
 .column-one {
     display: flex;
-    background-color: #fdbb20;
+    background-color: #f49a22;
     width: 21.4285715vw;
     height: 42.857143vh;
     margin: auto;
 }
 
 .column-one-inside {
-    background-color: #a48f57;
+    background-color: #d59125;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
@@ -48,14 +48,14 @@
 
 .column-two {
     display: flex;
-    background-color: #2951a3;
+    background-color: #276035;
     width: 21.4285715vw;
     height: 42.857143vh;
     margin: auto;
 }
 
 .column-two-inside {
-    background-color: #a48f57;
+    background-color: #5e6e34;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
@@ -63,7 +63,7 @@
 }
 
 .hover-container {
-    display: none;
+    display: flex;
     position: relative;
     top: -42.857143vh;
     width: 42.857143vw;
@@ -75,7 +75,7 @@
     display: flex;
     position: relative;
     width: 14.285714vw;
-    height: 42.857143vh;
+    height: 14.285714vh;
     margin: auto;
 }
 
@@ -83,14 +83,14 @@
     width: 7.142857vw;
     height: 14.285714vh;
     margin: auto;
-    background-color: #7c394f; 
+    background-color: #f49a22; 
 }
 
 .column-two-flap {
     width: 7.142857vw;
     height: 14.285714vh;
     margin: auto;
-    background-color: #e3ea95; 
+    background-color: #276035; 
 }
 
 /* Hover States */
