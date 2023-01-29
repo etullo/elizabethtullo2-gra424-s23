@@ -41,7 +41,7 @@
 .column-one-inside {
     background-color: #a89154;
     width: 14.285714vw;
-    height: 42.857143vh;
+    height: 14.285714vh;
     margin: auto;
     margin-right: 0;
 }
@@ -57,7 +57,7 @@
 .column-two-inside {
     background-color: #a89154;
     width: 14.285714vw;
-    height: 42.857143vh;
+    height: 14.285714vh;
     margin: auto;
     margin-left: 0;
 }
@@ -81,14 +81,14 @@
 
 .column-one-flap {
     width: 7.142857vw;
-    height: 14.285714vh;
+    height: 42.857143vh;
     margin: auto;
     background-color: #fffcc0; 
 }
 
 .column-two-flap {
     width: 7.142857vw;
-    height: 14.285714vh;
+    height: 42.857143vh;
     margin: auto;
     background-color: #3d0000; 
 }
