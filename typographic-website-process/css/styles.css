@@ -1,0 +1,12 @@
+.typefaces {
+    display: flex;
+    margin: auto;
+}
+
+.img {
+    margin: auto;
+    background-color: #000;
+    width: auto;
+    height: auto;
+}
+
