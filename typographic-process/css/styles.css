@@ -7,8 +7,9 @@
 
 .typefaces img {
     margin: auto;
-    background-color: #000;
+    background-color: #fff;
     width: 30vw;
+    height: auto;
     border-width: 1px;
     border-color: #000;
     border-style: solid;
@@ -18,7 +19,7 @@
 
 .layout img {
     margin: auto;
-    background-color: #000;
+    background-color: #fff;
     height: 100vh;
     border-width: 1px;
     border-color: #000;
