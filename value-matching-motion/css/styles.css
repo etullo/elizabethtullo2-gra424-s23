@@ -73,7 +73,6 @@
 
 .original-form-two-layer-three {
     display: flex;
-    background-color:#00b49b;
     width: 42.857143vw;
     height: 21.4285715vh;
     margin: auto;
@@ -87,12 +86,28 @@
     animation-fill-mode: forwards;
 }
 
-.original-form-one-layer-three {
+.original-form-two-layer-three-right {
+    display: flex;
+    background-color: #00b49b;
+    width: 21.4285715vw;
+    height: 21.4285715vh;
+    margin: auto;
+}
+
+.original-form-two-layer-three-left {
+    display: flex;
+    background-color: #00a087;
+    width: 21.4285715vw;
+    height: 21.4285715vh;
+    margin: auto;
+}
+
+.original-form-one-layer-three-right{
     display: flex;
     background-color: #f26f8e;
-    width: 14.285714vw;
+    width: 7.142857vw;
     height: 0vh;
-    margin: auto;
+    margin-left: 0vw;
     margin-top: 0vw;
     animation-name: slideupsmall;
     animation-duration: 1s;
@@ -102,38 +117,22 @@
     animation-fill-mode: forwards;
 }
 
-.original-form-two-layer-four {
+.original-form-one-layer-three-left{
     display: flex;
-    background-color: #00a087;
-    width: 21.4285715vw;
-    height: 21.4285715vh;
+    background-color: #e94167;
+    width: 7.142857vw;
+    height: 0vh;
     margin: auto;
-    position: relative;
-    top: -85.7vh;
-    left: -32.1vw;
-    animation-name: slideright;
-    animation-duration: 3s;
-    animation-delay: 11s;
+    margin-top: 0vw;
+    margin-right: 0;
+    animation-name: slideupsmall;
+    animation-duration: 1s;
+    animation-delay: 8s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
-.original-form-one-layer-four {
-    display: flex;
-    background-color: #e94167;
-    width: 0vw;
-    height: 7.1vh;
-    margin: auto;
-    margin-right: 0vw;
-    margin-top: 0vh;
-    animation-name: sliderightsmall;
-    animation-duration: 1s;
-    animation-delay: 13s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
 
 
 
