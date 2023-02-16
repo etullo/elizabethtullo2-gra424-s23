@@ -1,0 +1,54 @@
+.desktop {
+    width: 72vw;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.desktop img {
+    margin: auto;
+    height: auto;
+    width: 72vw;
+    padding-bottom: 5vh;
+}
+
+.mobile {
+    display: flex;
+    width: 72vw;
+    margin: auto;
+    height: auto;
+    margin-bottom: 5vh;
+}
+
+.mobile img {
+    width: 20vw;
+    height: 43.3vw;
+    margin: auto;
+    margin-top: 0;
+}
+
+.mobile .scroll {
+    width: 20vw;
+    height: 68.5vw;
+}
+
+.tablet {
+    display: flex;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.tablet img {
+    margin: auto;
+    height: 43vw;
+    padding-bottom: 5vh;
+}
+
+p {
+    margin-left:2vw;
+}
+
+a {
+    margin-left: 2vw;
+}
