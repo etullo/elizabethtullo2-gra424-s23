@@ -7,8 +7,8 @@
 
 
 a {
-    font-size: 10pt;
-    line-height: 12pt;
+    font-size: 9pt;
+    line-height: 10.5pt;
     text-decoration: none;
     color: #000;
     word-spacing: -1px;
@@ -17,8 +17,8 @@ a {
 
 
 p {
-    font-size: 10pt;
-    line-height: 12pt;
+    font-size: 9pt;
+    line-height: 10.5pt;
     word-spacing: -1.2px;
     letter-spacing: .4px;
     color: #000;
@@ -47,18 +47,18 @@ body {
 
 
 .analysis {
-    grid-column: 1/2;
+    grid-column: 2/3;
 }
 
 
 header p {
-    grid-column: 3/5;
+    grid-column: 4/6;
 }
 
 
 .dropdown {
-    grid-column: 5/6;
-    text-align: right;
+    grid-column: 4/5;
+    text-align: left;
 }
 
 
@@ -102,11 +102,66 @@ header p {
     background-color: #fff;
 }
 
-
-@media screen and (min-width: 775px) {
-    header {
-        grid-template-rows: 1fr 1fr;
+@media screen and (min-width: 365px) {
+   
+    a {
+        font-size: 10pt;
+        line-height: 12pt;
+        word-spacing: -1px;
+        letter-spacing: .4px;
+   }
+    
+    
+    p {
+        font-size: 10pt;
+        line-height: 11.5pt;
+        word-spacing: -1.2px;
+        letter-spacing: .4px;
     }
+
+  }
+
+@media screen and (min-width: 425px) {
+    .analysis {
+        grid-column: 3/4;
+    }
+    
+    
+    header p {
+        grid-column: 4/6;
+    }
+    
+    
+    .dropdown {
+        grid-column: 4/5;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    a {
+        font-size: 9pt;
+        line-height: 10.5pt;
+        text-decoration: none;
+        color: #000;
+        word-spacing: -1px;
+        letter-spacing: .4px;
+    }
+    
+    
+    p {
+        font-size: 9pt;
+        line-height: 10.5pt;
+        word-spacing: -1.2px;
+        letter-spacing: .4px;
+        color: #000;
+    }
+  }
+
+@media screen and (min-width: 700px) {
+    header {
+        grid-template-rows: 22pt auto;
+     }
 
     .analysis {
         grid-column: 4/5;
@@ -123,7 +178,10 @@ header p {
         grid-row: 2/3;
         text-align: left;
     }
+  }
 
+@media screen and (min-width:730px) {
+    
     a {
         font-size: 10pt;
         line-height: 12pt;
@@ -134,12 +192,11 @@ header p {
     
     p {
         font-size: 10pt;
-        line-height: 12pt;
+        line-height: 11.5pt;
         word-spacing: -1.2px;
         letter-spacing: .4px;
     }
-
-  }
+}
 
 @media screen and (min-width: 1020px) {
 
@@ -150,24 +207,23 @@ header p {
     }
 
     header {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 34.5pt 1fr;
         grid-column: 1/14;
-        grid-row: 1/2;
-    }
+     }
 
     .analysis {
-        grid-column: 5/6;
+        grid-column: 11/12;
         grid-row: 1/2;
     }
     
     header p {
-        grid-column: 6/7;
+        grid-column: 12/14;
         grid-row: 1/2;
     }
     
     .dropdown {
-        grid-column: 6/7;
+        grid-column: 12/13;
         grid-row: 2/3;
         text-align: left;
     }
@@ -199,3 +255,26 @@ header p {
     }
     
 }
+
+@media screen and (max-height: 700px) {
+    header {
+        grid-template-rows: 22pt auto;
+        padding-bottom: 5px;
+     }
+
+    a {
+        font-size: 9pt;
+        line-height: 10pt;
+        word-spacing: -1px;
+        letter-spacing: .4px;
+   }
+    
+    
+    p {
+        font-size: 9pt;
+        line-height: 10pt;
+        word-spacing: -1.2px;
+        letter-spacing: .4px;
+    }
+
+  }
