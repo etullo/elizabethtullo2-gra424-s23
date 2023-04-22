@@ -145,55 +145,41 @@ header p {
 .item1 {
     grid-column: 2/3;
     grid-row: 1/2;
-    line-height: 10.5pt;
 }
 
 .item2 {
     grid-column: 4/5;
     grid-row: 1/2;
-    line-height: 10.5pt;
 }
 
 .item3 {
     grid-column: 6/7;
     grid-row: 1/2;
-    line-height: 10.5pt;
 }
 
 .item4 {
     grid-column: 2/3;
     grid-row: 3/4;
-    line-height: 10.5pt;
 }
 
 .item5 {
     grid-column: 4/5;
     grid-row: 3/4;
-    line-height: 10.5pt;
 }
 
 .item6 {
     grid-column: 6/7;
     grid-row: 3/4;
-    line-height: 10.5pt;
 }
 
 .item7 {
     grid-column: 2/3;
     grid-row: 5/6;
-    line-height: 10.5pt;
 }
 
 .item8 {
     grid-column: 4/5;
     grid-row: 5/6;
-    line-height: 10.5pt;
-}
-
-.item9 {
-    grid-column: 6/7;
-    grid-row: 5/6;
-    line-height: 10.5pt;
 }
 
 .menu li a:hover{
@@ -361,65 +347,50 @@ header p {
 
     .menu-list {
         display: grid;
-        height: 100vh;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
         list-style-type: none;
         padding: 0;
     }
     
     .item1 {
-        grid-column: 2/4;
+        grid-column: 2/3;
         grid-row: 1/2;
-        line-height: 12.5pt;
     }
     
     .item2 {
-        grid-column: 4/6;
+        grid-column: 4/5;
         grid-row: 1/2;
-        line-height: 12.5pt;
     }
     
     .item3 {
-        grid-column: 6/8;
+        grid-column: 6/7;
         grid-row: 1/2;
-        line-height: 12.5pt;
     }
     
     .item4 {
-        grid-column: 8/10;
+        grid-column: 8/9;
         grid-row: 1/2;
-        line-height: 12.5pt;
     }
     
     .item5 {
-        grid-column: 10/12;
+        grid-column: 10/11;
         grid-row: 1/2;
-        line-height: 12.5pt;
     }
     
     .item6 {
-        grid-column: 12/14;
-        grid-row: 1/2;
-        line-height: 12.5pt;
+        grid-column: 2/3;
+        grid-row: 3/4;
     }
     
     .item7 {
-        grid-column: 2/4;
-        grid-row: 2/3;
-        line-height: 12.5pt;
+        grid-column: 4/5;
+        grid-row: 3/4;
     }
     
     .item8 {
-        grid-column: 4/6;
-        grid-row: 2/3;
-        line-height: 12.5pt;
-    }
-    
-    .item9 {
-        grid-column: 6/8;
-        grid-row: 2/3;
-        line-height: 12.5pt;
+        grid-column: 6/7;
+        grid-row: 3/4;
     }
 }
 
