@@ -1,0 +1,87 @@
+.webpage-format {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.original-format {
+    display: flex;
+    background-color: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+.original-form-two {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.vm-row-one{
+    display: flex;
+}
+
+.top-left {
+    background-color: #93d0c2;
+    width:21.4285715vw;
+    height:21.4285715vh;
+}
+
+.top-left-inside {
+    background-color: #fac9cd;
+    width: 7.142857vw;
+    height: 7.142857vh;
+    margin-left: 14.285714vw;
+    margin-top: 14.285714vh;
+}
+
+.top-right {
+    background-color: #70c4b1;
+    width:21.4285715vw;
+    height:21.4285715vh;
+}
+
+.top-right-inside {
+    background-color: #f7a9b6;
+    width: 7.142857vw;
+    height: 7.142857vh;
+    margin-right: 14.285714vw;
+    margin-top: 14.285714vh;
+}
+
+.vm-row-two{
+    display: flex;
+}
+
+.bottom-left {
+    background-color: #00a087;
+    width:21.4285715vw;
+    height:21.4285715vh;
+}
+
+.bottom-left-inside {
+    background-color: #e94167;
+    width: 7.142857vw;
+    height: 7.142857vh;
+    margin-left: 14.285714vw;
+    margin-bottom: 14.285714vh;
+}
+
+.bottom-right {
+    background-color: #00b49a;
+    width:21.4285715vw;
+    height:21.4285715vh;
+}
+
+.bottom-right-inside {
+    background-color: #f26f8e;
+    width: 7.142857vw;
+    height: 7.142857vh;
+    margin-right:14.285714vw;
+    margin-bottom:14.285714vh;
+}
