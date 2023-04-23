@@ -72,6 +72,7 @@ header p {
     grid-column: 3/6;
     grid-row: 3/6;
     background-image: url(../img/3d-model.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
     background-color: #000;
     background-position: center;
