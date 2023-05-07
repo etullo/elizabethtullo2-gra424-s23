@@ -168,14 +168,6 @@ footer {
     color: white;
 }
 
-.mobile430 {
-    display: none;
-}
-
-.tablet650 {
-    display: none;
-}
-
 @media screen and (min-width: 365px) {
    
     a {
@@ -210,18 +202,6 @@ footer {
         grid-column: 4/5;
         text-align: left;
     }
-
-
-}
-
-@media screen and (min-width: 430px) {
-    .mobile375 {
-        display: none;
-    }
-
-    .mobile430 {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 650px) {
@@ -247,15 +227,6 @@ footer {
         font-size: 62px;
         line-height: 78px;
     }
-
-    .mobile430 {
-        display: none;
-    }
-
-    .tablet650 {
-        display: block;
-    }
-    
   }
 
 @media screen and (min-width: 700px) {
@@ -295,18 +266,6 @@ footer {
         line-height: 11.5pt;
         word-spacing: -1.2px;
         letter-spacing: .4px;
-    }
-    
-}
-
-
-@media screen and (min-width:900px) {
-    .mobile430 {
-        display: block;
-    }
-
-    .tablet650 {
-        display: none;
     }
 }
 
@@ -386,26 +345,8 @@ footer {
     .item9 {
         line-height: 12.5pt;
     }
-
-    .tablet650 {
-        display: block;
-    }
-
-    .mobile430 {
-        display: none;
-    }
   }
 
-
-  @media screen and (min-width: 1500px) {
-    .tablet650 {
-        display: none;
-    }
-
-    .mobile430{
-        display: block;
-    }
-  }
 @media screen and (max-height: 700px) {
     header {
         grid-template-rows: 22pt auto;
